@@ -43,8 +43,8 @@ def test_multiply():
 
 # TODO: write test_divide()
 def test_divide():
-    assert divide(9, 3) == 3            # normal case
-    assert divide(-6, -3) == 2          # negative numbers
+    assert divide(6, 2) == 3            # normal case
+    assert divide(-9, -3) == 3          # negative numbers
     assert divide(-10, 2) == -5         # mixed signs
     assert divide(0, 5) == 0            # zero numerator
     assert divide(2.5, 0.5) == 5.0      # decimals

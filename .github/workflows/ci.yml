@@ -11,9 +11,9 @@ name: CI
 # TRIGGER: which events start this workflow, and on which branch?
 on:
  push:
-   branches: [ MAIN ]            # BLANK 1
+   branches: [ main ]            # BLANK 1
  pull_request:
-   branches: [ MAIN ]            # BLANK 2
+   branches: [ main ]            # BLANK 2
 
 
 jobs:
